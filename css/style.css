@@ -1,0 +1,266 @@
+body{
+	margin: 0;
+}
+
+header{
+	padding: 20px 0px;
+	background-color: #f6f9f9;
+}
+
+.banner{
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banner-content{
+	text-align: center;
+	color: white;
+}
+
+.banner-content h2{
+	margin-top: 22%;
+}
+
+.banner-content .fa{
+	margin-top: 25%;
+	margin-bottom: 10%;
+}
+
+.banner-content span{
+	border-bottom: 2px solid #15a4fa;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.banner-content button{
+	margin-top: 3%;
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+}
+
+.banner-content button:hover{
+	background-color: #15a4fa;
+	transition: 0.8s;
+}
+
+.simple{
+	text-align: center;
+	background-color: #f6f9f9;
+	padding: 5em 0em;
+	color: #999999;
+}
+
+.simple h2{
+	color: #2d3950;
+}
+
+.feature-item{
+	text-align: center;
+	padding: 5em 0em;
+}
+
+.feature-item h4{
+	padding: 20px 0px 0px 0px;
+}
+
+
+
+.feature-item .fa{
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	background: linear-gradient(90deg, rgb(51, 162, 236) 50%, rgb(48, 170, 252) 50%);
+	padding: 0.2em;
+	width: 70px;
+}
+
+.feature-item h4{
+	color: #2d3950;
+}
+
+.feature-item p{
+	color: #999999;
+}
+
+.portfolio{
+	background-color: #f6f9f9;
+	padding: 5em 0em;
+}
+
+.portfolio-header{
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.portfolio-content{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.over{
+	position: relative;
+}
+
+.portfolio-content img{
+	width: 100%;
+}
+
+.overlay{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 0px;
+	background-color:  rgb(51, 162, 236, 0.8);
+	top: 0;
+	left: 0;
+	text-align: center;
+	transition: 0.8s;
+}
+
+.overlay .fa{
+	padding: 10px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	position: absolute;
+	top: 40%;
+}
+
+.overlay .fa:hover{
+	background-color: #15a4fa;
+	border: 3px solid #15a4fa;;
+	transition: 0.5s;
+}
+
+.overlay .fa-search-plus{
+	left: 38%;
+}
+
+.overlay .fa-link{
+	right: 38%;
+}
+
+.over:hover .overlay{
+	height: 100%;
+}
+
+.contact{
+	background-image: url(../img/stay.jpg);
+	color: white;
+	padding: 5em 0em;
+	text-align: center;
+}
+
+.form-control{
+	background-color: transparent;
+}
+
+form button{
+	float: right;
+}
+
+.custom-control-input, .custom-control-label{
+	float: left;
+}
+
+form{
+	margin: 0 auto;
+}
+
+.custom-control button{
+	background-color: transparent;
+	width: 100px;
+}
+
+footer{
+	background-color: #f6f9f9;
+	padding: 1.5em 0em;
+}
+
+.copyright{
+	color: #999999;
+}
+
+.icons .fa{
+	color: white;
+	background-color: #15a4fa;
+	text-align: center;
+	padding: 10px;
+	width: 40px;
+	margin-right: 1px;
+}
+
+.icons .fa:hover{
+	box-shadow: 2px 2px 2px darkblue;
+	transition: 0.5s;
+}
+
+.icons{
+	float: right;
+}
+
+
+
+@media (max-width: 575px){
+	.banner-content span{
+		width: 95%;
+	}
+}
+
+
+@media (min-width: 576px) { 
+	.banner-content span{
+		width: 85%;
+	}
+}
+
+@media (min-width: 768px) { 
+	.banner-content h2{
+		font-size: 80px;
+	}
+
+	.banner-content span{
+		width: 65%;
+	}
+
+	form{
+		width: 60%;
+	}
+	
+}
+
+@media (min-width: 992px) {
+	.banner-content h2{
+		font-size: 100px;
+	}
+
+	.banner-content span{
+		width: 50%;
+	}
+
+	form{
+		width: 50%;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+
+	.banner-content h2{
+		font-size: 120px;
+	}
+
+	.banner-content span{
+		width: 40%;
+	}
+
+	form{
+		width: 40%;
+	}
+
+
+	
+}
