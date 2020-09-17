@@ -16,6 +16,8 @@ header{
 .banner-content{
 	text-align: center;
 	color: white;
+	padding-top: 190px;
+	padding-bottom: 60px;
 }
 
 .banner-content h2{
